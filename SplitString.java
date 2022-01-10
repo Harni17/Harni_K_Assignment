@@ -11,7 +11,7 @@ public class SplitString {
 			splitfunc(str,Delimiter);
 				
 			}
-		static void splitfunc(String str, String delimiter) {
+		static void splitfunc(String str, String Delimiter) {
 			for(int i=0;i<str.length();i++) {
 				if(str.charAt(i)==' ') {
 					System.out.println();
